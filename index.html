@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html data-ng-app="skillseval">
+    <head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">   
+
+        <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+
+        <title>Website of Suman Barick</title>
+    </head>
+
+    <body data-ng-controller="mainController as mvm">
+
+        <div class="container-fluid main-container">            
+            <div data-ng-view=""></div>
+        </div>
+
+        <!-- JAVASCRIPT SECTION -->
+        <script type="text/javascript" src="lib/js/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="lib/js/angular.min.js"></script>
+        <script type="text/javascript" src="lib/js/angular-route.min.js"></script>
+
+        <!-- Following Files are Merged and Minified -->        
+        <script type="text/javascript" src="scripts/app.js"></script>
+        <script type="text/javascript" src="modules/common/mainController.js"></script>
+        <script type="text/javascript" src="modules/home/homeController.js"></script>
+        <script type="text/javascript" src="scripts/router.js"></script>
+        <!--</Deject>-->
+        
+        <!-- Minified JS Files -->
+        <!--MinJSGulp-->
+
+    </body>
+</html>
