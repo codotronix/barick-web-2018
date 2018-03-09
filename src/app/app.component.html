@@ -5,9 +5,14 @@
   </h1>
 </div>
 
-<div *ngFor="let itemGroup of listItems">
+<!-- <div *ngFor="let itemGroup of listItems">
     <list-card-holder [itemGroup]="itemGroup"></list-card-holder>
-</div>
+</div> -->
+
+
+
+<list-card *ngFor="let item of listItems" [item]="item" class="col-xs-12 col-sm-4 col-md-3"></list-card>
+
 
 
 <router-outlet></router-outlet>
