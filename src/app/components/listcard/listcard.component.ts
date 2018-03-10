@@ -5,15 +5,17 @@ import { Component, Input } from '@angular/core';
 
     template: `
     <div class="list-card">
-        <div class="title">{{item.name}}</div>
-        <div class="tags">
-            <span *ngFor="let tag of item.tags" class="tag">
-                {{tag}}
-            </span>
-        </div>
+        <div class="title">{{item.name}}</div>        
         <img class="img" alt="{{item.name}} image" [src]="item.img"/>
-        <div class="desc">            
-            {{item.desc}}
+        <div class="desc">
+            <div class="tags">
+                <span *ngFor="let tag of item.tags" class="tag">
+                    {{tag}}
+                </span>
+            </div>           
+            <p>
+                {{item.desc}}
+            </p>
         </div>
         <div class="button-pane">
 
@@ -79,7 +81,7 @@ import { Component, Input } from '@angular/core';
         border: 1px solid #ccc;
         padding: 5px;
         margin-top: 10px;
-        max-height: 208px;
+        max-height: 175px;
     }
     .list-card .desc {
         font-size: 16px;
