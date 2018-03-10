@@ -51,22 +51,22 @@ export class AppComponent {
             tags: ["Cordova", "HTML5", "CSS3", "JavaScript", "jQuery", "Game"],
             img: "assets/img/mini-puzzle/mini-puzzle.png",
             playStoreUrl: "https://play.google.com/store/apps/details?id=in.barick.cordova.minipuzzle",
-            "windowsStoreUrl": "https://www.microsoft.com/en-us/store/games/mini-puzzle/9nblggh6gv5r",
-            "amazonUrl": "http://www.amazon.com/dp/B017X1OE50/"
+            windowsStoreUrl: "https://www.microsoft.com/en-us/store/games/mini-puzzle/9nblggh6gv5r",
+            amazonUrl: "http://www.amazon.com/dp/B017X1OE50/"
         },            
         {
             name: "Barick Tilefy",
             desc: "A plugin to create windoes metro style UI",
-            tags: ["HTML", "CSS", "JavaScript", "jQuery", "hand.js", "Game"],
+            tags: ["HTML", "CSS", "JavaScript", "jQuery", "hand.js", "web-plugin"],
             img: "assets/img/barick-tilefy/barick-tilefy.gif",
             githubUrl: "https://github.com/codotronix/barick-tilefy"
         },
         {
-            name: "Web 2",
-            desc: "A tank battle game to demonstrate the browser responsiveness of AngularJS, where each tank is an angular directive.",
-            tags: ["AngularJS", "HTML", "CSS", "JavaScript", "Game"],
-            img: "assets/img/tankgular/tankgular.png",
-            url: ""
+            name: "Bengali Recipes",
+            desc: "A delight for all the Bengali food lovers",
+            tags: ["AngularJS", "HTML", "CSS", "JavaScript", "website"],
+            img: "assets/img/bengali-recipes/bengali-recipes.png",
+            webUrl: "http://codotronix.github.io/bengali-recipes"
         },
         {
             name: "Web 3",
